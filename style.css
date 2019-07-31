@@ -1,0 +1,102 @@
+body {
+  background-color: #F7F9FC;
+  color: #555B6E;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #A68BA5;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #D0BCD5;
+}
+
+h2 {
+  color: #555B6E;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.card-white {
+  text-align: center;
+  margin: 20px 200px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+div {
+  display: block;
+}
+
+.btn-pink {
+  background: #D0BCD5;
+  padding: 7px 17px;
+  border-radius: 5px;
+}
+
+.btn-pink:hover {
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container {
+  margin: auto;
+}
+
+ul li{
+  display: inline;
+}
+
+ul li a {
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card-white {
+    margin: 20px 100px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card-white {
+    margin: 20px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
